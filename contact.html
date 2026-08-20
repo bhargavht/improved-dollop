@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Bhargav HT through an accessible contact form.">
+
+    <meta name="author"
+          content="Bhargav HT">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <title>Contact | Bhargav HT</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+
+    <header class="site-header">
+
+        <div class="container header-container">
+
+            <a href="index.html"
+               class="logo"
+               aria-label="Bhargav HT home page">
+                Bhargav HT
+            </a>
+
+
+            <nav aria-label="Primary navigation">
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html"
+                           aria-current="page">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main id="main-content">
+
+        <section class="page-header"
+                 aria-labelledby="page-title">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Get In Touch
+                </p>
+
+                <h1 id="page-title">
+                    Contact Me
+                </h1>
+
+                <p class="hero-text">
+                    Send me a message using the accessible form below.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container form-container">
+
+                <form action="#"
+                      method="post"
+                      aria-labelledby="form-title">
+
+                    <h2 id="form-title">
+                        Send a Message
+                    </h2>
+
+                    <p id="required-note">
+                        Fields marked with
+                        <span aria-hidden="true">*</span>
+                        are required.
+                    </p>
+
+
+                    <!-- Name -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                            aria-required="true"
+                            aria-describedby="name-help">
+
+                        <p id="name-help"
+                           class="help-text">
+                            Enter your first and last name.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Email -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            inputmode="email"
+                            required
+                            aria-required="true"
+                            aria-describedby="email-help">
+
+                        <p id="email-help"
+                           class="help-text">
+                            Example: name@example.com
+                        </p>
+
+                    </div>
+
+
+                    <!-- Subject -->
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject">
+
+                    </div>
+
+
+                    <!-- Message -->
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            required
+                            aria-required="true"></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 Bhargav HT.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
